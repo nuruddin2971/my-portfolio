@@ -28,7 +28,7 @@ const About = () => {
   const stats = [
     { label: "Projects Completed", value: "10+" },
     { label: "Core Technologies", value: "12+" },
-    { label: "Shojib", value: "Logic & Execution" },
+    { label: "Problem Solver", value: "Logic & Execution" },
     { label: "Code Dedication", value: "24/7" },
   ];
 
