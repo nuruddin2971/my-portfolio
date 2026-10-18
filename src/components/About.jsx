@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { 
-  User, 
-  Terminal, 
-  Code, 
-  Trophy, 
-  Activity, 
-  BookOpen, 
+import {
+  User,
+  Terminal,
+  Code,
+  Trophy,
+  Activity,
+  BookOpen,
   Heart,
   CheckCircle2
 } from 'lucide-react';
@@ -28,7 +28,7 @@ const About = () => {
   const stats = [
     { label: "Projects Completed", value: "10+" },
     { label: "Core Technologies", value: "12+" },
-    { label: "Client Satisfaction", value: "100%" },
+    { label: "Shojib", value: "Logic & Execution" },
     { label: "Code Dedication", value: "24/7" },
   ];
 
@@ -121,8 +121,8 @@ const About = () => {
           {/* Quick Stats Grid */}
           <div className="grid grid-cols-2 gap-4">
             {stats.map((s, idx) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className="glass-card p-5 rounded-2xl border border-white/10 text-center hover:border-tertiary/40 transition-all duration-300"
               >
                 <div className="text-3xl md:text-4xl font-black text-white font-['Space_Grotesk'] text-gradient">
@@ -146,7 +146,7 @@ const About = () => {
             </p>
             <div className="grid grid-cols-2 gap-3 pt-2">
               {hobbies.map((hobby, i) => (
-                <div 
+                <div
                   key={i}
                   className="flex items-center gap-2.5 p-3 rounded-xl bg-white/[0.03] border border-white/5 text-sm text-slate-300 font-medium"
                 >
